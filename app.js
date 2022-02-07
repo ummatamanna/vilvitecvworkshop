@@ -1,24 +1,23 @@
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    var div = $('body').offset().top; // get top offset of your div
-
+    var div=$('body').offset().top;
     if (scroll > div) {
         $('nav').addClass("sticky");
     } else {
         $('nav').removeClass("sticky");
     }
 
-    if(scroll > $('body').offset().top){
+    if (scroll > $('body').offset().top) {
         $(".scrollTop").addClass('fade');
-    } else { 
+    } else {
         $(".scrollTop").removeClass('fade');
     }
 });
 
-$(".navbar").click(function(){
+$(".navbar").on('click', function() {
     $(".menu ul").toggleClass("toggle");
 })
-
- $(".menu ul li a").click(function(){
+$(".menu ul li a").on('click', function() {
     $(".menu ul").removeClass("toggle");
 });
+
