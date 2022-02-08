@@ -126,11 +126,7 @@ nav {
   padding: 5px 10px;
   position: relative;
 }
-.social-link ul li a::after {
-  content: "/";
-  position: absolute;
-  right: 0;
-}
+
 .social-link ul li a:hover {
   opacity: 0.7;
 }
