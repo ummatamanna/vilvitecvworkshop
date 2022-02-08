@@ -82,15 +82,7 @@ nav {
 
 .hero-banner {
 }
-.hero-banner .col {
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-  height: 100%;
-  flex-basis: 50%;
-  max-width: 50%;
-  min-height: 70vh;
-}
+
 .hero-banner .row {
   justify-content: space-between;
   padding: 45px 0;
