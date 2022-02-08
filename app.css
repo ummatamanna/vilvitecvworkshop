@@ -135,9 +135,7 @@ nav {
   opacity: 0.7;
 }
 
-.banner {
-  /* padding: 50px 0; */
-}
+
 .banner img {
   border-radius: 13%;
   width: 100%;
@@ -256,10 +254,9 @@ p {
 }
 .testimonial .row {
   justify-content: space-between;
+   margin-top: 50px;
 }
-.testimonial .row {
-  margin-top: 50px;
-}
+
 .testimonial p {
   font-size: 18px;
 }
