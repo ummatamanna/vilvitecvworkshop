@@ -230,16 +230,16 @@ p {
 }
 .info p {
 }
-.qoute {
+.quote {
   background-color: var(--theme-color);
   padding: 80px 0;
 }
-.qoute p {
+.quote p {
   font-size: 32px;
   color: var(--bg-color);
   font-weight: 600;
 }
-.qoute span {
+.quote span {
   color: var(--bg-color);
   font-size: 18px;
 }
