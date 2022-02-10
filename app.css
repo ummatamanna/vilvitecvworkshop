@@ -337,27 +337,6 @@ footer li a {
   font-size: 18px;
   padding-top: 4px;
 }
-
-.contact {
-  padding: 80px 0;
-}
-.contact .row {
-  justify-content: space-between;
-  align-items: center;
-}
-.container-right {
-  width: calc(100% - 16.5%);
-  margin-left: auto;
-}
-.col-7 {
-  flex-basis: 65%;
-  max-width: 65%;
-}
-.col-3 {
-  flex-basis: 25%;
-  max-width: 25%;
-}
-
 .scrollTop {
   position: fixed;
   bottom: 20px;
