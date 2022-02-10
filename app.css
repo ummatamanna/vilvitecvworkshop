@@ -91,10 +91,7 @@ nav {
   flex-direction: column;
   justify-content: space-between;
 }
-.hero-banner .col-right {
-  flex-basis: 50%;
-  max-width: 50%;
-}
+
 .banner-content {
 }
 .banner-content h1 {
@@ -125,7 +122,6 @@ nav {
   padding: 5px 10px;
   position: relative;
 }
-
 .social-link ul li a:hover {
   opacity: 0.7;
 }
@@ -503,7 +499,7 @@ footer li a {
   .info-section .row {
     padding-bottom: 40px;
   }
-  .qoute p {
+  .quote p {
     font-size: 22px;
   }
   .testimonial img {
@@ -578,3 +574,5 @@ footer li a {
     visibility: visible;
   }
 }
+
+
